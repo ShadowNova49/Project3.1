@@ -12,6 +12,8 @@
 		1151897C2263D47C00712369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1151897A2263D47C00712369 /* Main.storyboard */; };
 		1151897E2263D47E00712369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1151897D2263D47E00712369 /* Assets.xcassets */; };
 		115189812263D47E00712369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1151897F2263D47E00712369 /* LaunchScreen.storyboard */; };
+		115189892263D94D00712369 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115189882263D94D00712369 /* ImageCell.swift */; };
+		1151898D2263DB0C00712369 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151898C2263DB0C00712369 /* PinterestLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1151897D2263D47E00712369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		115189802263D47E00712369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		115189822263D47E00712369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115189882263D94D00712369 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		1151898C2263DB0C00712369 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				115189762263D47C00712369 /* AppDelegate.swift */,
 				115189782263D47C00712369 /* ViewController.swift */,
+				1151898C2263DB0C00712369 /* PinterestLayout.swift */,
 				1151897A2263D47C00712369 /* Main.storyboard */,
+				115189882263D94D00712369 /* ImageCell.swift */,
 				1151897D2263D47E00712369 /* Assets.xcassets */,
 				1151897F2263D47E00712369 /* LaunchScreen.storyboard */,
 				115189822263D47E00712369 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1151898D2263DB0C00712369 /* PinterestLayout.swift in Sources */,
 				115189792263D47C00712369 /* ViewController.swift in Sources */,
 				115189772263D47C00712369 /* AppDelegate.swift in Sources */,
+				115189892263D94D00712369 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
