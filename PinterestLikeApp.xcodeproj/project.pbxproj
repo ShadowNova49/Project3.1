@@ -29,7 +29,7 @@
 		DA7B67ED1FD98D5C0060B4AD /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		DA96087C1FD71A2F00C8EE06 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		DA96087E1FD71D3900C8EE06 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
-		DAB9FCF81FC8E4C200CF64A7 /* PinterestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB9FCF81FC8E4C200CF64A7 /* PinterestLikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestLikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB9FCFB1FC8E4C300CF64A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB9FCFD1FC8E4C300CF64A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAB9FD001FC8E4C300CF64A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		DAB9FCEF1FC8E4C200CF64A7 = {
 			isa = PBXGroup;
 			children = (
-				DAB9FCFA1FC8E4C200CF64A7 /* PinterestApplication */,
+				DAB9FCFA1FC8E4C200CF64A7 /* PinterestLikeApp */,
 				DAB9FCF91FC8E4C200CF64A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,12 +88,12 @@
 		DAB9FCF91FC8E4C200CF64A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAB9FCF81FC8E4C200CF64A7 /* PinterestApplication.app */,
+				DAB9FCF81FC8E4C200CF64A7 /* PinterestLikeApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAB9FCFA1FC8E4C200CF64A7 /* PinterestApplication */ = {
+		DAB9FCFA1FC8E4C200CF64A7 /* PinterestLikeApp */ = {
 			isa = PBXGroup;
 			children = (
 				20AE7847200C3EB60060F4D6 /* ViewModels */,
@@ -106,15 +106,15 @@
 				DAB9FD041FC8E4C300CF64A7 /* LaunchScreen.storyboard */,
 				DAB9FD071FC8E4C300CF64A7 /* Info.plist */,
 			);
-			path = PinterestApplication;
+			path = PinterestLikeApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAB9FCF71FC8E4C200CF64A7 /* PinterestApplication */ = {
+		DAB9FCF71FC8E4C200CF64A7 /* PinterestLikeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAB9FD0A1FC8E4C300CF64A7 /* Build configuration list for PBXNativeTarget "PinterestApplication" */;
+			buildConfigurationList = DAB9FD0A1FC8E4C300CF64A7 /* Build configuration list for PBXNativeTarget "PinterestLikeApp" */;
 			buildPhases = (
 				DAB9FCF41FC8E4C200CF64A7 /* Sources */,
 				DAB9FCF51FC8E4C200CF64A7 /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = PinterestApplication;
+			name = PinterestLikeApp;
 			productName = PinterestApplication;
-			productReference = DAB9FCF81FC8E4C200CF64A7 /* PinterestApplication.app */;
+			productReference = DAB9FCF81FC8E4C200CF64A7 /* PinterestLikeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Gary Tokman";
 				TargetAttributes = {
 					DAB9FCF71FC8E4C200CF64A7 = {
@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DAB9FCF31FC8E4C200CF64A7 /* Build configuration list for PBXProject "PinterestApplication" */;
+			buildConfigurationList = DAB9FCF31FC8E4C200CF64A7 /* Build configuration list for PBXProject "PinterestLikeApp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAB9FCF71FC8E4C200CF64A7 /* PinterestApplication */,
+				DAB9FCF71FC8E4C200CF64A7 /* PinterestLikeApp */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +229,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -236,6 +237,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -263,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -286,6 +288,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -293,6 +296,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -314,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -328,9 +332,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M27HAL452K;
-				INFOPLIST_FILE = PinterestApplication/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PinterestLikeApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nikita.pinterestTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = nikita.test3.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,9 +347,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M27HAL452K;
-				INFOPLIST_FILE = PinterestApplication/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PinterestLikeApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nikita.pinterestTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = nikita.test3.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAB9FCF31FC8E4C200CF64A7 /* Build configuration list for PBXProject "PinterestApplication" */ = {
+		DAB9FCF31FC8E4C200CF64A7 /* Build configuration list for PBXProject "PinterestLikeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAB9FD081FC8E4C300CF64A7 /* Debug */,
@@ -364,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAB9FD0A1FC8E4C300CF64A7 /* Build configuration list for PBXNativeTarget "PinterestApplication" */ = {
+		DAB9FD0A1FC8E4C300CF64A7 /* Build configuration list for PBXNativeTarget "PinterestLikeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAB9FD0B1FC8E4C300CF64A7 /* Debug */,

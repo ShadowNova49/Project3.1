@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PinterestApplication.xcodeproj">
+      location = "self:/Users/nikita/Documents/GitHub/task3.1/PinterestLikeApp.xcodeproj">
    </FileRef>
 </Workspace>
