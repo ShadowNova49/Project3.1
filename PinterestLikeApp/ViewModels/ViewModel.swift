@@ -64,18 +64,15 @@ class ViewModel {
                     return
                 }
                 
-                 guard let textData = photo.alt_description else {
-                 self.showError?(APIError.text)
-                 return
-                 }
+                guard let textData = photo.alt_description else {
+                    self.showError?(APIError.text)
+                    return
+                }
 
-                
                 guard let image = UIImage(data: imageData) else {
                     self.showError?(APIError.imageConvert)
                     return
                 }
-                
-                
                 
                 self.cellViewModels.append(CellViewModel(image: image, text: textData))
                 group.leave()

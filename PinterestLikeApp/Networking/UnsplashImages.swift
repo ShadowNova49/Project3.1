@@ -14,6 +14,7 @@ struct Photo: Codable {
     let id: String
     let alt_description: String?
     let urls: URLS
+    
 }
 
 struct URLS: Codable {

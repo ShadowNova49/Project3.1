@@ -71,10 +71,9 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PhotoCell", for: indexPath) as! PhotoCell
         
-        let image = viewModel.cellViewModels[indexPath.item].image
-        cell.ImageView.image = image
-        let text = viewModel.cellViewModels[indexPath.item].text
-        cell.TextView.text = text
+        let photo = viewModel.cellViewModels[indexPath.item]
+        cell.ImageView.image = photo.image
+        cell.TextView.text = photo.text
         //cell.TextView.text = "Photo \(indexPath.item + 1)"
         
         return cell
