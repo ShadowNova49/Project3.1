@@ -61,16 +61,19 @@ class ViewModel {
                 group.enter()
                 guard let imageData = try? Data(contentsOf: photo.urls.small) else {
                     self.showError?(APIError.imageDownload)
+                    group.leave()
                     return
                 }
                 
                 guard let textData = photo.alt_description else {
                     self.showError?(APIError.text)
+                    group.leave()
                     return
                 }
 
                 guard let image = UIImage(data: imageData) else {
                     self.showError?(APIError.imageConvert)
+                    group.leave()
                     return
                 }
                 
@@ -80,6 +83,7 @@ class ViewModel {
         }
         
         group.notify(queue: .main) {
+            print("here")
             self.isLoading = false
             self.reloadData?()
         }

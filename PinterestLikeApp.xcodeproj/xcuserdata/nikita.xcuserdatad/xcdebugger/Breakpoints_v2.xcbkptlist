@@ -6,17 +6,65 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PinterestLikeApp/ViewModels/ViewModel.swift"
-            timestampString = "578002948.400658"
+            timestampString = "579032739.889207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "fetchPhoto()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PinterestLikeApp/ViewModels/ViewModel.swift"
+            timestampString = "579032739.8908499"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "fetchPhoto()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PinterestLikeApp.ViewModel.(fetchPhoto in _ABA0FEAD89CCDA229AB288FDE5BEFC34)() -&gt; ()"
+                  moduleName = "PinterestLikeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikita/Documents/GitHub/task3.1/PinterestLikeApp/ViewModels/ViewModel.swift"
+                  timestampString = "578003923.537082"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "517">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in PinterestLikeApp.ViewModel.(fetchPhoto in _ABA0FEAD89CCDA229AB288FDE5BEFC34)() -&gt; ()"
+                  moduleName = "PinterestLikeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikita/Documents/GitHub/task3.1/PinterestLikeApp/ViewModels/ViewModel.swift"
+                  timestampString = "578003923.55635"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
