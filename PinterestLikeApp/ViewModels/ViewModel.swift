@@ -11,6 +11,7 @@ import UIKit
 struct CellViewModel {
     let image: UIImage
     let text: String?
+    //let text2: String?
 }
 
 class ViewModel {
@@ -65,17 +66,26 @@ class ViewModel {
                     return
                 }
                 
-                guard let textData = photo.alt_description else {
-                    self.showError?(APIError.text)
-                    group.leave()
-                    return
-                }
-
                 guard let image = UIImage(data: imageData) else {
                     self.showError?(APIError.imageConvert)
                     group.leave()
                     return
                 }
+                
+                guard let textData = photo.links.download else {
+                    self.showError?(APIError.text)
+                    group.leave()
+                    return
+                }
+                
+                /*
+                guard let textData = photo.alt_description, photo.alt_description != nil else {
+                    self.showError?(APIError.text)
+                    group.leave()
+                    return
+                }
+                //"Just Some Picture Without Description"
+                */
                 
                 self.cellViewModels.append(CellViewModel(image: image, text: textData))
                 group.leave()

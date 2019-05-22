@@ -74,6 +74,8 @@ extension ViewController: UICollectionViewDataSource {
         let photo = viewModel.cellViewModels[indexPath.item]
         cell.ImageView.image = photo.image
         cell.TextView.text = photo.text
+        cell.TextView.isEditable = false
+        cell.TextView.dataDetectorTypes = .link
         //cell.TextView.text = "Photo \(indexPath.item + 1)"
         
         return cell

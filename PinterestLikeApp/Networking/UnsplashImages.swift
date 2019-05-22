@@ -12,9 +12,17 @@ typealias Photos = [Photo]
 
 struct Photo: Codable {
     let id: String
+    let description: String?
     let alt_description: String?
+    let links: LINKS
     let urls: URLS
     
+}
+
+struct LINKS: Codable {
+    let download: String?
+    let download_location: String?
+    let html: String?
 }
 
 struct URLS: Codable {
