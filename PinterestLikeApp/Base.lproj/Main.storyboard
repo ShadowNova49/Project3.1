@@ -76,8 +76,6 @@
                                         <connections>
                                             <outlet property="ImageView" destination="dni-UE-0Dl" id="tuA-xL-nuF"/>
                                             <outlet property="TextView" destination="uR1-yU-jrp" id="gqV-xi-vlN"/>
-                                            <outlet property="imageView" destination="dni-UE-0Dl" id="dry-8E-sBF"/>
-                                            <outlet property="textView" destination="uR1-yU-jrp" id="fcM-bZ-Gdg"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
